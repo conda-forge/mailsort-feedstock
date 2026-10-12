@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.3"
+  version: "0.0.4"
 
 package:
   name: mailsort
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mailsort/mailsort-${{ version }}.tar.gz
-  sha256: 10afd844f596f97bbef9a7345a83009e7e254c78435973c0d70abf161708a8a5
+  sha256: 69b759be1792f63b21a46bf7cc241aadf5a4702e89c8402843d324fafe207fe5
 
 build:
   number: 0
@@ -31,7 +31,7 @@ requirements:
     - tqdm >=4.64.1,<=4.70.1
     - pandas >=1.5.3,<=3.0.5
     - scikit-learn >=1.2.2,<=1.9.0
-    - sqlalchemy >=2.0.0,<=2.0.52
+    - sqlalchemy >=2.0.0,<=2.0.54
 
 tests:
   - python:
