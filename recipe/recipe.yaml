@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.7"
+  version: "0.0.8"
 
 package:
   name: mailsort
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mailsort/mailsort-${{ version }}.tar.gz
-  sha256: 424b2c93d7df6c4d02040a3d3bff3b8f045583178780bf8ff3b34c18bfb7a4ff
+  sha256: 35a953ddf8a8cdb9241617256482ba60148bc5f2976d2d38f9d244d981c34c83
 
 build:
   number: 0
